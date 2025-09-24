@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Environment files (keep secrets safe)
+.env
+
+# Logs
+logs
+*.log
+logs/**/*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional cache & build folders
+.cache/
+dist/
+build/
+
+# VSCode settings
+.vscode/
+
+# Render/Heroku specific
+.procfile
